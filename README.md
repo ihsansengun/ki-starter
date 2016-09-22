@@ -1,6 +1,3 @@
-# Starter kit to use Gulp with Less.
-====================================
-
 ### LESS / CSS Stuff
 
 - Watches for Less changes on save
@@ -18,7 +15,7 @@
 ## How To Use
 
     $ git clone git@github.com:scotch-io/gulp-and-less-starter-kit.git
-    $ cd gulp-and-less-starter-kit
+    $ cd ki-starter
     $ npm install
     
 After, run
@@ -32,20 +29,4 @@ After, run
 
 **If no command gulp found?**, you need to install it globally `npm install -g gulp` or run `npm run gulp`
 
-### Still broken or not working?
-
-Try this:
-
-```javascript
-sudo npm cache clean
-npm install --save-dev
-npm update --save-dev
-gulp
-```
-
-
-## Quick Tips
-- Any changes in `assets/less/*` will trigger the Less to compile on save
-- All files in `assets/js/libs/*`  will be compressed to `build/jquery.plugins.min.js`
-- All files in `assets/js/*` (except for `libs`) will be compressed to `build/scripts.min.js`
 
